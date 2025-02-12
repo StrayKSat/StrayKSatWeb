@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>StrayKSat</title>
+    <!-- Carga eficiente de la fuente -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
         body {
             font-family: 'Poppins', sans-serif;
             background-color: #121212;
@@ -13,14 +14,14 @@
             margin: 0;
             display: flex;
             flex-direction: column;
-            align-items: center;
-            text-align: center;
+            min-height: 100vh;
         }
         header {
             background-color: #1f1f1f;
             width: 100%;
             padding: 1rem 0;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+            text-align: center;
         }
         nav {
             display: flex;
@@ -51,7 +52,9 @@
             padding: 2rem;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-            margin-top: 2rem;
+            margin: 2rem auto;
+            text-align: center;
+            max-width: 800px;
         }
         h1 {
             font-size: 2.5rem;
@@ -80,12 +83,12 @@
             transform: scale(1.1);
         }
         footer {
-            margin-top: auto;
             padding: 1rem 0;
             background-color: #1f1f1f;
             color: #ffffff;
             width: 100%;
             text-align: center;
+            margin-top: auto;
         }
         .license {
             margin-top: 1rem;
@@ -118,13 +121,14 @@
             </a>
             <a href="https://bsky.app/profile/strayksat.bsky.social">
                 <img src="https://github.com/StrayKSat/StrayKSatWeb/blob/main/Bluesky_Logo.png?raw=true" alt="BlueSky">
+            </a>
         </div>
     </div>
     <footer>
         <p>&copy; 2025 StrayKSat. Todos los derechos reservados.</p>
         <div class="license">
-            <p xmlns:cc="http://creativecommons.org/ns#" >
-                This work by <span property="cc:attributionName">StrayKSat</span> is licensed under 
+            <p>
+                Este trabajo de <span>StrayKSat</span> está licenciado bajo 
                 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">
                     CC BY-NC-SA 4.0
                     <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="">
