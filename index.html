@@ -60,26 +60,37 @@
             margin-bottom: 1rem;
             font-weight: 700;
         }
-        .soon {
+        .feed {
+            margin-top: 2rem;
+            text-align: left;
+        }
+        .post {
+            background-color: #2a2a2a;
+            padding: 1rem;
+            margin: 1rem 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        .post h2 {
+            margin: 0;
             font-size: 1.5rem;
-            color: #bbbbbb;
-            margin-bottom: 2rem;
-            font-weight: 300;
+            color: #3b82f6;
         }
-        .social-icons {
-            margin-top: 1rem;
+        .post p {
+            margin: 0.5rem 0 1rem;
         }
-        .social-icons a {
+        .post a {
             display: inline-block;
-            line-height: 0;
+            background-color: #3b82f6;
+            color: #ffffff;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            transition: background-color 0.3s;
         }
-        .social-icons img {
-            width: 40px;
-            margin: 0 10px;
-            transition: transform 0.3s;
-        }
-        .social-icons img:hover {
-            transform: scale(1.1);
+        .post a:hover {
+            background-color: #2563eb;
         }
         footer {
             padding: 1rem 0;
@@ -87,7 +98,6 @@
             color: #ffffff;
             width: 100%;
             text-align: center;
-            margin-top: auto;
         }
         .license {
             margin-top: 1rem;
@@ -106,21 +116,30 @@
         </nav>
     </header>
     <div class="container">
-        <div class="soon">Próximamente</div>
-        <div>Síguenos en nuestras redes:</div>
-        <div class="social-icons">
-            <a href="https://twitter.com/StraykSat">
-                <img src="https://github.com/StrayKSat/StrayKSatWeb/blob/main/Twitter_logo.png?raw=true" alt="Twitter">
-            </a>
-            <a href="https://www.instagram.com/strayksat/">
-                <img src="https://github.com/StrayKSat/StrayKSatWeb/blob/main/Instagram_logo.png?raw=true" alt="Instagram">
-            </a>
-            <a href="https://www.threads.net/@strayksat">
-                <img src="https://github.com/StrayKSat/StrayKSatWeb/blob/main/Threads_logo.png?raw=true" alt="Threads">
-            </a>
-            <a href="https://bsky.app/profile/strayksat.bsky.social">
-                <img src="https://github.com/StrayKSat/StrayKSatWeb/blob/main/Bluesky_Logo.png?raw=true" alt="BlueSky">
-            </a>
+        <h1>Bienvenidos</h1>
+        <p>Descubre las últimas noticias sobre nuestro proyecto.</p>
+    </div>
+    <div class="container feed">
+        <h1>Últimos Posts</h1>
+        <div class="post">
+            <h2>Twitter</h2>
+            <p>"Sapientia caelum tangit." (La sabiduría toca el cielo.)</p>
+            <a href="https://twitter.com/StraykSat" target="_blank">Visitar Twitter</a>
+        </div>
+        <div class="post">
+            <h2>Instagram</h2>
+            <p>"Stellae semper inspiciendae." (Las estrellas siempre deben observarse.)</p>
+            <a href="https://www.instagram.com/strayksat/" target="_blank">Visitar Instagram</a>
+        </div>
+        <div class="post">
+            <h2>Threads</h2>
+            <p>"Per aspera ad victoriam." (A través de las dificultades hacia la victoria.)</p>
+            <a href="https://www.threads.net/@strayksat" target="_blank">Visitar Threads</a>
+        </div>
+        <div class="post">
+            <h2>BlueSky</h2>
+            <p>"Infinitum explorare necesse est." (Es necesario explorar el infinito.)</p>
+            <a href="https://bsky.app/profile/strayksat.bsky.social" target="_blank">Visitar BlueSky</a>
         </div>
     </div>
     <footer>
