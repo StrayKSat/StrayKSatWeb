@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StrayKSat ● Proyecto</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background-color: #1f1f1f;
+            width: 100%;
+            padding: 1rem 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+        }
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 1.2rem;
+            position: relative;
+        }
+        nav a::after {
+            content: '';
+            width: 0;
+            height: 2px;
+            background: #ffffff;
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            transition: width 0.3s;
+        }
+        nav a:hover::after {
+            width: 100%;
+        }
+        .container {
+            background-color: #1f1f1f;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            margin: 2rem auto;
+            text-align: center;
+            max-width: 800px;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+        .project {
+            margin-top: 2rem;
+            text-align: left;
+        }
+        .project img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin: 1rem 0;
+        }
+        footer {
+            padding: 1rem 0;
+            background-color: #1f1f1f;
+            color: #ffffff;
+            width: 100%;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>StrayKSat</h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="proyecto.html">Proyecto</a>
+            <a href="equipo.html">Equipo</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+    <div class="container">
+        <h1>Proyectos</h1>
+        <p>Explora nuestros proyectos que busca alcanzar las estrellas y más allá.</p>
+        <div class="project">
+            <h2>¿Quiénes somos?</h2>
+            <p>Nuestro equipo, StraykSat, está formado por un total de 6 participantes de tercer curso de Educación Secundaria Obligatoria. Cada participante se comprometió a dar su máximo en este proyecto, implicando 6 horas semanales para trabajar en él.</p>
+            <p>El equipo ha dividido las tareas de manera equilibrada y responsable teniendo en cuenta las habilidades de cada participante para poder obtener los mejores resultados posibles. Entre estas tareas se encuentran la aplicación de física, la programación, el diseño mecánico, habilidades comunicativas, entre otras muchas cualidades.</p>
+            <img src="imagen_proyecto.jpg" alt="Logo de StrayKSat">
+            <h2>CanSat 2025</h2>
+            <p>Participando actualmente en el desafío Cansat 2025. Este desafío consiste en propulsar a un kilómetro de altura un Cansat (Un conjunto de sensores localizados en una carcasa con medidas de lata que hace función de satélite). Para ello mediremos distintos valores como temperatura, humedad, altitud, orientación, posición... para mandarlos (con delay de un segundo) a la estación de tierra y graficar los datos recibidos. No solo vamos a hacer esta misión sino que además estamos trabajando en una misión secundaria relacionada con nuestra zona, pero no podemos dar más datos sobre ella. Iremos actualizando nuestras redes y la web a medida que avancemos.</p>
+            <p>Gracias a nuestros patrocinadores y a los organizadores de Cansat por darnos esta maravillosa oportunidad, poder trabajar en la robótica a nuestra edad es todo un sueño para nosotros. ¡De ocho metros a un km!</p>
+            <img src="imagen_objetivos.jpg" alt="Foto del Cansat de StrayKSat">
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 StrayKSat. Todos los derechos reservados.</p>
+        <div class="license">
+            <p>
+                Este trabajo de <span>StrayKSat</span> está licenciado bajo 
+                <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">
+                    CC BY-NC-SA 4.0
+                    <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="">
+                    <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt="">
+                    <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt="">
+                    <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt="">
+                </a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
